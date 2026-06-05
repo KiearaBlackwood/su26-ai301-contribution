@@ -13,7 +13,7 @@
 
 I chose this issue because it aligns perfectly with my interest in building robust, production-ready software architectures and expanding my experience with open-source backend systems. Handling edge cases and identifying errors are a fundamental aspect of software engineering that directly impacts user experience and system reliability. Working on this issue allows me to apply my problem-solving skills to a real-world codebase.
 
-Furthermore, this gives me a unique opportunity to transition my academic knowledge into tangible industry skills. Resolving this issue will help me get comfortable with navigating an unfamiliar/complex codebase and writing clean maintainable code that adheres to the project's established guidelines. I am excited to learn more about the project's underlying architecture and improve my debugging workflow.
+Furthermore, this gives me a unique opportunity to transition my academic knowledge into tangible industry skills. Resolving this issue will help me get comfortable with navigating an unfamiliar/complex codebase and writing clean maintainable code that adheres to the project's established guidelines. I am excited to learn more about the project's underlying architecture and improve my debugging skills.
 
 ---
 
