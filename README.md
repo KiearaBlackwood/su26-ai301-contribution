@@ -4,16 +4,16 @@
 
 **Contribution Number:** 1  
 **Student:** Kieara Blackwood  
-**Issue:** [https://github.com/seraph-quest/seraph/issues/209]  
+**Issue:** https://github.com/seraph-quest/seraph/issues/209  
 **Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[I chose this issue because it aligns perfectly with my interest in building robust, production-ready software architectures and expanding my experience with open-source backend systems. Handling edge cases and identifying errors are a fundamental aspect of software engineering that directly impacts user experience and system reliability. Working on this issue allows me to apply my problem-solving skills to a real-world codebase.
+I chose this issue because it aligns perfectly with my interest in building robust, production-ready software architectures and expanding my experience with open-source backend systems. Handling edge cases and identifying errors are a fundamental aspect of software engineering that directly impacts user experience and system reliability. Working on this issue allows me to apply my problem-solving skills to a real-world codebase.
 
-Furthermore, this gives me a unique opportunity to transition my academic knowledge into tangible industry skills. Resolving this issue will help me get comfortable with navigating an unfamiliar/complex codebase and writing clean maintainable code that adheres to the project's established guidelines. I am excited to learn more about the project's underlying architecture and improve my debugging workflow.]
+Furthermore, this gives me a unique opportunity to transition my academic knowledge into tangible industry skills. Resolving this issue will help me get comfortable with navigating an unfamiliar/complex codebase and writing clean maintainable code that adheres to the project's established guidelines. I am excited to learn more about the project's underlying architecture and improve my debugging workflow.
 
 ---
 
@@ -21,19 +21,19 @@ Furthermore, this gives me a unique opportunity to transition my academic knowle
 
 ### Problem Description
 
-[The main problem is that the discussion board is completely empty. When a feature or community space is left unseeded, it fails to promote discoverability or encourage community engagement because visitors have no clear structure or existing conversations to jump into. Additionally, the project's documentation doesn't yet direct community members to this new space.]
+The main problem is that the discussion board is completely empty. When a feature or community space is left unseeded, it fails to promote discoverability or encourage community engagement because visitors have no clear structure or existing conversations to jump into. Additionally, the project's documentation doesn't yet direct community members to this new space.
 
 ### Expected Behavior
 
-[The GitHub Discussions page should feature a structured and initial set of at least three starter threads. Examples: a welcome message/introduction, troubleshooting/setup support, product feedback, and a "show and tell" showcase.]
+The GitHub Discussions page should feature a structured and initial set of at least three starter threads. Examples: a welcome message/introduction, troubleshooting/setup support, product feedback, and a "show and tell" showcase.
 
 ### Current Behavior
 
-[Currently,the GitHub Discussions surface is entirely blank and unseeded. Because there are no baseline threads or prompt categories, community members lack obvious places to post questions, feedback, or demos. The existing documentation also lacks updated links routing users to the newly enabled Discussions tab.]
+Currently,the GitHub Discussions surface is entirely blank and unseeded. Because there are no baseline threads or prompt categories, community members lack obvious places to post questions, feedback, or demos. The existing documentation also lacks updated links routing users to the newly enabled Discussions tab.
 
 ### Affected Components
 
-[Discussions tab/board and Community / Documentation Files]
+Discussions tab/board and Community / Documentation Files
 
 ---
 
