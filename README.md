@@ -1,8 +1,8 @@
 # su26-ai301-contribution
 
-# Contribution [#209]: [Seed GitHub Discussions with support, product feedback, and showcase threads]
+# Contribution #209: Seed GitHub Discussions with support, product feedback, and showcase threads
 
-**Contribution Number:** [1]  
+**Contribution Number:** 1  
 **Student:** [Kieara Blackwood]  
 **Issue:** [https://github.com/seraph-quest/seraph/issues/209]  
 **Status:** [Phase I Complete]
