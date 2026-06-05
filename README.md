@@ -3,8 +3,8 @@
 # Contribution [#]: [Issue Title]
 
 **Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
+**Student:** [Kieara Blackwood]  
+**Issue:** [https://github.com/seraph-quest/seraph/issues/209]  
 **Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
 
 ---
