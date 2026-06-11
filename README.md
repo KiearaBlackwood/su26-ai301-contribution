@@ -41,19 +41,24 @@ Discussions tab/board and Community / Documentation Files
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+Setting up the environment for this issue was straightforward but required a shift in focus from traditional software dependencies to repository architecture. Because the task involves platform configuration (GitHub Discussions) and static documentation alignment, there were no complex Docker containers or runtime engine versions to debug.
+
+Challenge: Ensuring that all new documentation updates accurately point to the upcoming live discussion categories before they are fully deployed upstream.
+
+Resolution: I mapped out the expected target URLs for the specific GitHub Discussion categories (General, Q&A, Ideas, Show & Tell) based on standard GitHub URL routing conventions. This allowed me to safely embed absolute production links into the local markdown files without breaking the user journey post-merge.
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Step 1: Navigate to the main repository page on GitHub and click on the Discussions tab.
+2. Step 2: Observe the landing page interface to check for existing community interaction vectors.
+3. Step 3: Open the project's root README.md and SUPPORT.md files in your local workspace and scan for any onboarding instructions regarding community forums.
+4. Observed result: The Discussions space is completely blank with no active starter threads or categorical frameworks, making it invisible and unhelpful for inbound community members. Concurrently, the static documentation files lack any references or hyperlinks directing users to use the Discussions space for general inquiries.
 
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** [Link to commit in your fork]
 - **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **My findings:** The issue isn't broken code, but a missing community architecture. Without an immediate "seed" set of threads, an open-source discussion board suffers from the "cold start" problem—users don't post because no one else has posted. Furthermore, updating SUPPORT.md is critical to offload standard troubleshooting questions from the GitHub Issues tab (which should be reserved exclusively for verified bugs) into the new Discussions Q&A section.
 
 ---
 
