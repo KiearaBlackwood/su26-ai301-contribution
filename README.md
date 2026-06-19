@@ -56,7 +56,7 @@ Resolution: I mapped out the expected target URLs for the specific GitHub Discus
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** []
+- **Commit showing reproduction:** [https://github.com/KiearaBlackwood/su26-ai301-contribution/discussions]
 - **Screenshots/logs:** [If applicable]
 - **My findings:** The issue isn't broken code, but a missing community architecture. Without an immediate "seed" set of threads, an open-source discussion board suffers from the "cold start" problem—users don't post because no one else has posted. Furthermore, updating SUPPORT.md is critical to offload standard troubleshooting questions from the GitHub Issues tab (which should be reserved exclusively for verified bugs) into the new Discussions Q&A section.
 
