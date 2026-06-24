@@ -88,7 +88,7 @@ Using UMPIRE framework (adapted):
 - Setup & Troubleshooting Support (Q&A Category)
 - Product Feedback & Workflow Ideas (Ideas Category)
 - Show and Tell / Demos (Show and Tell Category)
-2. Modify README.md to append a new ## Community & Support section highlighting the disscussion boards.
+2. Modify README.md to append a new Community & Support section highlighting the disscussion boards.
 3. Modify SUPPORT.md to establish routing policies that direct users to the Q&A thread for environmental setup assistance rather than opening a new bug issue.
 4. Perform manual verification checks on all generated URLs to prevent dead or broken hyperlinks post-merge.
 
