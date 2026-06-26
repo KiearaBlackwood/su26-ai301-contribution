@@ -90,22 +90,22 @@ Using UMPIRE framework (adapted):
 - Show and Tell / Demos (Show and Tell Category)
 2. Modify README.md to append a new Community & Support section highlighting the disscussion boards.
 3. Modify SUPPORT.md to establish routing policies that direct users to the Q&A thread for environmental setup assistance rather than opening a new bug issue.
-4. Perform manual verification checks on all generated URLs to prevent dead or broken hyperlinks post-merge.
+4. Perform manual verification checks on all generated URLs to prevent inactive or broken hyperlinks post-merge.
 
 **Implement:** https://github.com/KiearaBlackwood/su26-ai301-contribution/tree/fix-issue-209
 - Commit History: * docs: seed initial github discussion threads
 - docs: update readme and support files with community links
 
 **Review:** 
-[] Formatting & Syntax: All changes in README.md will be clean, standard Markdown. No broken headers or syntax leaks are present.
-[] Scope Adherence: The changes are strictly isolated to community documentation and onboarding pathways. No unrelated code files or formatting configurations were touched.
-[] Commit Hygiene: Make clear commits with descriptive language for clarity and so that it matches clean repository history.
-[] Tone & Messaging: The text drafted for the starter threads is welcoming, collaborative, professional, and directly supports the project's architectural direction.
+[] Formatting & Syntax: All changes in README.md will be clean and organized. No broken headers or syntax leaks will be present.
+[] The changes are strictly isolated to community documentation and onboarding pathways. No unrelated code files or formatting configurations will be touched.
+[] Commits: Make clear commits with descriptive language for clarity and so that it matches the repository history.
+[] Tone & Messaging: The drafted starter threads will be welcoming, collaborative, professional. They will directly supports the project's architectural direction.
 
 **Evaluate:** 
-- Hyperlink Validation: Every absolute URL mapped to the GitHub Discussions interface was manually tested in order to ensure it routes correctly to the intended forum targets without returning a 404 error.
+- Hyperlink Validation: Every URL mapped to the GitHub Discussions interface will be manually tested in order to ensure it routes correctly to the intended forum without returning a 404 error.
   
-- Local Markdown Rendering: Used an IDE Markdown preview tool to verify that the newly added Community & Support sections render cleanly and match the existing visual hierarchy of the documentation.
+- Local Markdown Rendering: Used an IDE Markdown preview tool to verify that the newly added Community & Support sections match the existing visual hierarchy of the documentation.
   
 - Flow Check: Verified that the instructions in SUPPORT.md cleanly separate technical bug tracking (directed to GitHub Issues) from setup support, product ideas, and showcases (directed to GitHub Discussions).
 
@@ -115,12 +115,9 @@ Using UMPIRE framework (adapted):
 
 ### Unit Tests
 
-- [ ] Test case 1: Markdown Syntax Validation
-  — Verified that all modified lines in README.md and SUPPORT.md conform to standard Markdown syntax. Checked that all bolding, list blocks, and headers render cleanly without syntax leaks or unclosed brackets.
-- [ ] Test case 2: Git Line-Ending Consistency
-      — Confirmed that the text updates maintain consistent LF line endings across files to ensure clean commits without cross-OS parsing issues.
-- [ ] Test case 3: Local Character Encoding
-      — Checked that no "smart quotes" or stylized en-dashes were accidentally introduced into the document paths or URLs during the editing process.
+- [ ] Test case 1: Markdown Syntax Validation — Verified that all modified lines in README.md and SUPPORT.md conform to standard Markdown syntax. Checked that all bolding, list blocks, and headers render cleanly without syntax leaks or unclosed brackets.
+- [ ] Test case 2: Git Line-Ending Consistency — Confirmed that the text updates maintain consistent LF line endings across files to ensure clean commits without cross-OS parsing issues.
+- [ ] Test case 3: Local Character Encoding — Checked that no special characters or stylized characters were accidentally added into the document paths or URLs during the editing process.
 
 ### Integration Tests
 
