@@ -97,10 +97,10 @@ Using UMPIRE framework (adapted):
 - docs: update readme and support files with community links
 
 **Review:** 
-[] Formatting & Syntax: All changes in README.md will be clean and organized. No broken headers or syntax leaks will be present.
-[] The changes are strictly isolated to community documentation and onboarding pathways. No unrelated code files or formatting configurations will be touched.
-[] Commits: Make clear commits with descriptive language for clarity and so that it matches the repository history.
-[] Tone & Messaging: The drafted starter threads will be welcoming, collaborative, professional. They will directly supports the project's architectural direction.
+- [] Formatting & Syntax: All changes in README.md will be clean and organized. No broken headers or syntax leaks will be present.
+- [] The changes are strictly isolated to community documentation and onboarding pathways. No unrelated code files or formatting configurations will be touched.
+- [] Commits: Make clear commits with descriptive language for clarity and so that it matches the repository history.
+- [] Tone & Messaging: The drafted starter threads will be welcoming, collaborative, professional. They will directly supports the project's architectural direction.
 
 **Evaluate:** 
 - Hyperlink Validation: Every URL mapped to the GitHub Discussions interface will be manually tested in order to ensure it routes correctly to the intended forum without returning a 404 error.
