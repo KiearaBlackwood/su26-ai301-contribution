@@ -122,11 +122,17 @@ Using UMPIRE framework (adapted):
 ### Integration Tests
 
 - [ ] Integration scenario 1
+Cross-referenced every URL inside README.md and SUPPORT.md against live GitHub routing patterns. Verify that embedding the exact category (such as appending discussions, categories, or ideas) correctly match the markdown files to the platform boards. Also make sure they do not return 404 destination errors.
 - [ ] Integration scenario 2
+Tested all of the disscussion boards. Validated that a user starting at the README.md welcome text can smoothly access the new "Community & Support" section. Additionally, validating that clicking through to SUPPORT.md establishes a clear, unified boundary separating structural bugs (directed to Issues) from configuration or feedback threads (directed to Discussions).
 
 ### Manual Testing
 
-[What you tested manually and results]
+I performed a comprehensive visual and semantic Quality Assurance (QA) pass on the following layers:
+
+- Opened both modified markdown files inside the VS Code Markdown Preview tool. Checked all header hierarchies, text margins, blockquotes, and list spacing to ensure that the new content matches the existing project layout style.
+- Manually clicked through every updated link and URL block in the documents. Confirmed that all references work smoothly to active web pages.
+- Read through the drafts for the 4 community threads (Welcome, Setup/Troubleshooting, Product Feedback, and Show & Tell). Verified that the messaging maintains a highly professional and welcoming open-source tone and explicitly follows the project's guidelines.
 
 ---
 
