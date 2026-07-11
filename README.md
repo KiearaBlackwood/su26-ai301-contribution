@@ -115,15 +115,15 @@ Using UMPIRE framework (adapted):
 
 ### Unit Tests
 
-- [ ] Test case 1: Markdown Syntax Validation — Verified that all modified lines in README.md and SUPPORT.md conform to standard Markdown syntax. Checked that all bolding, list blocks, and headers render cleanly without syntax leaks or unclosed brackets.
-- [ ] Test case 2: Git Line-Ending Consistency — Confirmed that the text updates maintain consistent LF line endings across files to ensure clean commits without cross-OS parsing issues.
-- [ ] Test case 3: Local Character Encoding — Checked that no special characters or stylized characters were accidentally added into the document paths or URLs during the editing process.
+- [x] Test case 1: Markdown Syntax Validation — Verified that all modified lines in README.md and SUPPORT.md conform to standard Markdown syntax. Checked that all bolding, list blocks, and headers render cleanly without syntax leaks or unclosed brackets.
+- [x] Test case 2: Git Line-Ending Consistency — Confirmed that the text updates maintain consistent LF line endings across files to ensure clean commits without cross-OS parsing issues.
+- [x] Test case 3: Local Character Encoding — Checked that no special characters or stylized characters were accidentally added into the document paths or URLs during the editing process.
 
 ### Integration Tests
 
-- [ ] Integration scenario 1
+- [x] Integration scenario 1
 :Cross-referenced every URL inside README.md and SUPPORT.md against live GitHub routing patterns. Verify that embedding the exact category (such as appending discussions, categories, or ideas) correctly match the markdown files to the platform boards. Also make sure they do not return 404 destination errors.
-- [ ] Integration scenario 2
+- [x] Integration scenario 2
 :Tested all of the disscussion boards. Validated that a user starting at the README.md welcome text can smoothly access the new "Community & Support" section. Additionally, validating that clicking through to SUPPORT.md establishes a clear, unified boundary separating structural bugs (directed to Issues) from configuration or feedback threads (directed to Discussions).
 
 ### Manual Testing
@@ -138,19 +138,31 @@ I performed a comprehensive visual and semantic Quality Assurance (QA) pass on t
 
 ## Implementation Notes
 
-### Week [X] Progress
+Week 1 Progress
+What I Built: I analyzed Issue #209, reviewed the project’s structure, and mapped out the 4 core discussion threads needed to initialize the community surface (Welcome/Overview, Setup & Troubleshooting, Product Feedback, and Show & Tell). I drafted the markdown text for these threads, adhering to the project's "workspace-first guardian" direction.
 
-[What you built this week, challenges faced, decisions made]
+Challenges Faced: Establishing accurate target URLs in the documentation for discussion categories before the threads were fully indexed upstream required careful link planning.
 
-### Week [Y] Progress
+Decisions Made: I decided to use standardized GitHub Discussion category parameters (e.g., ?discussions_q=category:q-a) to guarantee that all hyperlinks in the documentation remain functional regardless of thread ordering.
 
-[Continue documenting as you work]
+Week 2 Progress
+What I Built: Created the fix-issue-209 working branch, updated the root README.md to introduce a new ## Community & Support section, and updated SUPPORT.md to establish clear triage rules. I then performed manual visual QA and link-integrity checks across the modified files.
+
+Challenges Faced: Ensuring the onboarding tone in SUPPORT.md clearly guided users to post setup/troubleshooting questions in Discussions rather than opening new GitHub Issues (reserving Issues strictly for verified bugs).
+
+Decisions Made: Structured the SUPPORT.md layout using explicit callout blocks to make the distinction between bug reporting and general Q&A obvious at a glance for first-time contributors.
 
 ### Code Changes
 
-- **Files modified:** [List]
+- **Files modified:**
+- README.md — Added the ## Community & Support section with direct links to the new Discussion boards.
+- SUPPORT.md — Updated community support policies and issue triage guidelines.
+
+Key Commits:
 - **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+- **Approach decisions:**
+- Markdown-First Strategy: Kept all onboarding updates light, modular, and directly embedded within the repository's root files so new users don't need to leave GitHub to find support.
+- Conventional Commits: Used strict docs: prefixes for all commit messages to ensure clean project history compliance.
 
 ---
 
