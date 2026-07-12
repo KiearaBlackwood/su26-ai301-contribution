@@ -139,30 +139,29 @@ I performed a comprehensive visual and semantic Quality Assurance (QA) pass on t
 ## Implementation Notes
 
 Week 1 Progress
-What I Built: I analyzed Issue #209, reviewed the project’s structure, and mapped out the 4 core discussion threads needed to initialize the community surface (Welcome/Overview, Setup & Troubleshooting, Product Feedback, and Show & Tell). I drafted the markdown text for these threads, adhering to the project's "workspace-first guardian" direction.
 
-Challenges Faced: Establishing accurate target URLs in the documentation for discussion categories before the threads were fully indexed upstream required careful link planning.
+What I Built: I analyzed Issue #209, reviewed the project’s structure, and mapped out the 4 core discussion threads needed to initialize the community surface. I drafted the markdown text for these threads, adhering to the project's directions.
+
+Challenges Faced: Establishing accurate target URLs in the documentation for discussion categories.
 
 Decisions Made: I decided to use standardized GitHub Discussion category parameters (e.g., ?discussions_q=category:q-a) to guarantee that all hyperlinks in the documentation remain functional regardless of thread ordering.
 
 Week 2 Progress
-What I Built: Created the fix-issue-209 working branch, updated the root README.md to introduce a new ## Community & Support section, and updated SUPPORT.md to establish clear triage rules. I then performed manual visual QA and link-integrity checks across the modified files.
 
-Challenges Faced: Ensuring the onboarding tone in SUPPORT.md clearly guided users to post setup/troubleshooting questions in Discussions rather than opening new GitHub Issues (reserving Issues strictly for verified bugs).
+What I Built: Created the fix-issue-209 working branch, updated the root README.md to introduce a new Community & Support section. I then performed manual visual QA and link-integrity checks across the modified files.
 
-Decisions Made: Structured the SUPPORT.md layout using explicit callout blocks to make the distinction between bug reporting and general Q&A obvious at a glance for first-time contributors.
+Challenges Faced: Ensuring the SUPPORT.md clearly guided users to post setup/troubleshooting questions in Discussions rather than opening new GitHub Issues.
 
 ### Code Changes
 
 - **Files modified:**
-- README.md — Added the ## Community & Support section with direct links to the new Discussion boards.
-- SUPPORT.md — Updated community support policies and issue triage guidelines.
+- README.md — Added the Community & Support section with direct links to the new Discussion boards.
 
 Key Commits:
 - **Key commits:** [Links to important commits]
 - **Approach decisions:**
-- Markdown-First Strategy: Kept all onboarding updates light, modular, and directly embedded within the repository's root files so new users don't need to leave GitHub to find support.
-- Conventional Commits: Used strict docs: prefixes for all commit messages to ensure clean project history compliance.
+- Kept all onboarding updates and directly embedded within the repository's root files so new users don't need to leave GitHub to find support.
+- Used strict docs: prefixes for all commit messages to ensure clean project history compliance.
 
 ---
 
