@@ -161,7 +161,6 @@ Key Commits:
 - **Key commits:** [Links to important commits]
 - **Approach decisions:**
 - Kept all onboarding updates and directly embedded within the repository's root files so new users don't need to leave GitHub to find support.
-- Used strict docs: prefixes for all commit messages to ensure clean project history compliance.
 
 ---
 
