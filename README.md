@@ -168,13 +168,20 @@ Key Commits:
 
 **PR Link:** [GitHub PR URL when submitted]
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** 
+
+Resolves #209 by initializing the GitHub Discussions community surface and integrating routing links across documentation.
+
+Changes Included:
+
+- Seeded 4 initial discussion category threads (Welcome, Setup & Troubleshooting, Product Feedback, and Show & Tell).
+- Added a Community & Support section to README.md with links to the new Discussion boards.
+- Updated SUPPORT.md for general usage questions to Discussions while keeping Issues dedicated to verified bugs.
+- Manually verified links across all modified markdown files and confirmed layout remains the same.
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** Awaiting review
 
 ---
 
@@ -182,15 +189,16 @@ Key Commits:
 
 ### Technical Skills Gained
 
-[What you learned technically]
+- Learned how to create discussion board categories from scratch. 
 
 ### Challenges Overcome
 
-[What was hard and how you solved it]
+- Designed starter community threads from scratch required balancing clarity, engagement, and alignment with the project's specific architectural vision without having any existing formual to model after.
+- Ensured that documentation hyperlinks referencing brand-new discussion category that would resolve cleanly without throwing 404 errors once deployed.
 
 ### What I'd Do Differently Next Time
 
-[Reflection on your process]
+Next time, I would draft and preview the starter thread copy directly in a sandbox repository environment beforehand to test GitHub's category behavior live under real user permissions before updating the core documentation files.
 
 ---
 
